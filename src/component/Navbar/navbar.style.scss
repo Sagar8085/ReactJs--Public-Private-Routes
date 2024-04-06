@@ -1,0 +1,36 @@
+.Navbar{
+    background-color: black;
+    color: white !important;
+
+    &__link{
+        & > a{
+        color: white;
+        }
+    }
+    &__dropdown{
+        & > a{
+            color: white;
+            cursor: pointer;
+        }
+        &:hover{
+            color: white;
+        }
+    }
+    &__profile{
+        color: white;
+    }
+
+    @media (max-width: 767px) {
+        .navbar-brand {
+          margin-right: 0;
+        }
+        .navbar-nav {
+          margin-top: 10px;
+        }
+        .nav-link {
+          padding: 0.5rem 1rem;
+        }
+      }
+}
+
+  

@@ -1,0 +1,85 @@
+.forget {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    &__background {
+        background-image: url('../../assets/image/login_img.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(0.5);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    &__logo {
+        display: flex;
+        margin-bottom: 5px;
+        justify-content: center;
+    }
+    &__bg {
+        width: 120px;
+    }
+    &__heading {
+        text-align: center;
+        font-weight: 800;
+        color: #58666e;
+        font-size: 12px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        height: 300px;
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 0.5rem;
+    }
+
+    &__form-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    &__label {
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+
+    &__input {
+        padding: 0.5rem;
+    }
+
+    &__button {
+        width: 100%;
+        padding: 5px;
+        color: #ffffff !important;
+        background-color: #1c2b36;
+        border-color: #1c2b36;
+    }
+
+    &__forget-password {
+        margin: 10px 0px;
+        text-align: end;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #363f44;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
